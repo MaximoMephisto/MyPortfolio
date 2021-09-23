@@ -1,6 +1,15 @@
 #body {
     background-color: #0c2d41;
 }
+#contenedor_carga {
+    background-color: #0c2d41;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10000;
+    text-align: center;
+    justify-content: center;
+}
 #particles-js {
     height: 100vh;
     width: 100%;
@@ -171,6 +180,10 @@
     border-radius: 1px;
     padding-left: 20px;
     padding-right: 20px;
+}
+#chartdiv {
+    width: 100%;
+    height: 350px;
 }
 /*COLORS*/
 .color1 {color: #060606;}
