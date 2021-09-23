@@ -199,6 +199,36 @@
     width: 100%;
     height: 350px;
 }
+#body_about {
+    background-color: #0c2d41;
+}
+#some_information .card {
+    background: none;
+    border-color: #2bc8c8;
+}
+.fa-language, .fa-school, .fa-graduation-cap, .fa-clock {
+    font-size: 80px;
+    color: yellow;
+}
+.list-card {
+    font-size: 20px;
+}
+#body_contact {
+    background-color: #0c2d41;
+}
+#form_contact {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background-color: #2bc8c827;
+}
+#form_contact input {
+    background: none;
+    border-color: #2bc8c8;
+}
+#form_contact textarea {
+    background: none;
+    border-color: #2bc8c8;
+}
 /*COLORS*/
 .color1 {color: #060606;}
 .color2 {color: #0c2d41;}
