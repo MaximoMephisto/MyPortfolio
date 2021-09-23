@@ -11,15 +11,9 @@
     position: relative;
     z-index: 99;
 }
-.navbar-title {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgba(255, 255, 0, 0.426);
-}
-.navbar-title:hover {
-    color: yellow
-    ;
+.img-title {
+    width: 100px;
+    border-radius: 50px;
 }
 .nav-link {
     text-decoration: none;
@@ -82,7 +76,7 @@
     font-size: 80px;
 }
 .special-letter {
-    color: rgb(111, 0, 0);
+    color: #2bc8c8;
 }
 .special-letter:hover {
     color: white;
@@ -170,6 +164,13 @@
 #form textarea {
     background: none;
     border-color: #2bc8c8;
+}
+.btn-perso {
+    border: 1px solid #2bc8c8;
+    background-color: #2bc8c82f;
+    border-radius: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /*COLORS*/
 .color1 {color: #060606;}
