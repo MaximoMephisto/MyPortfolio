@@ -1,0 +1,109 @@
+#body {
+    background-color: #0c2d41;
+}
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.container-particles {
+    position: relative;
+    z-index: 99;
+}
+.navbar-title {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: yellow;
+}
+.navbar-title:hover {
+    color: white;
+}
+.nav-link {
+    text-decoration: none;
+    color: white !important;
+}
+.nav-item {
+    font-size: 20px;
+}
+.fa-ellipsis-v {
+    color: whitesmoke;
+}
+.offcanvas-header {
+    background-color: #112f42;
+}
+.offcanvas-title {
+    color: rgb(253, 253, 182);
+    font-size: 20px;
+}
+.fa-times {
+    font-size: 20px;
+    color: white;
+    transition: all .3s ease-out;
+}
+.fa-times:hover {
+    color: rgb(250, 53, 53);
+}
+.offcanvas-body {
+    background-color: #0c2d41;
+}
+.icons {
+    font-size: 25px;
+    color: white;
+}
+.fa-facebook-f, .fa-instagram, .fa-linkedin-in {
+    padding-right: 20px;
+}
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-telegram-plane:hover {
+    color: yellow;
+    font-size: 30px;
+}
+#welcome {
+    margin-top: 25%;
+}
+#welcome h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+.letters-one {
+    color: white;
+}
+.letters-one:hover {
+    color: yellow;
+    font-size: 80px;
+}
+.letters-two {
+    color: yellow;
+}
+.letters-two:hover {
+    color: white;
+    font-size: 80px;
+}
+.special-letter {
+    color: rgb(111, 0, 0);
+}
+.special-letter:hover {
+    color: white;
+    font-size: 80px;
+}
+.letters-tree {
+    color: white;
+}
+.letters-tree:hover {
+    color: rgb(111, 0, 0);
+    font-size: 80px;
+}
+.disabled-p {
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+/*COLORS*/
+.color1 {color: #060606;}
+.color2 {color: #0c2d41;}
+.color3 {color: #1a5d87;}
+.color4 {color: #2b99ca;}
+.color5 {color: #2bc8c8;}
