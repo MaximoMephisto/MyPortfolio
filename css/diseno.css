@@ -21,8 +21,6 @@
     height: 100%;
     position: fixed;
     z-index: 10000;
-    text-align: center;
-    justify-content: center;
 }
 #particles-js {
     height: 100vh;
