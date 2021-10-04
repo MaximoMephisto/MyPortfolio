@@ -1,298 +1,330 @@
-::-webkit-scrollbar-track{
-    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,0,3);
-    border-radius: 0px;
-    background-color: #0c2d41;
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: iset 0 0 6px rgba(0, 0, 0, 0, 3);
+  border-radius: 0px;
+  background-color: #0c2d41;
 }
-::-webkit-scrollbar{
-    width: 8px;
-    background-color: #0c2d41;
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #0c2d41;
 }
-::-webkit-scrollbar-thumb{
-    border-radius: 0px;
-    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,.3);
-    background-color: #1a5d87;
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  -webkit-box-shadow: iset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1a5d87;
 }
 #body {
-    background-color: #0c2d41;
+  background-color: #0c2d41;
 }
 #contenedor_carga {
-    background-color: #0c2d41;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 10000;
+  background-color: #0c2d41;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10000;
 }
 #particles-js {
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 .container-particles {
-    position: relative;
-    z-index: 99;
+  position: relative;
+  z-index: 99;
 }
 .img-title {
-    width: 100px;
-    border-radius: 50px;
+  width: 100px;
+  border-radius: 50px;
 }
 .nav-link {
-    text-decoration: none;
-    color: white !important;
+  text-decoration: none;
+  color: white !important;
 }
 .nav-item {
-    font-size: 20px;
+  font-size: 20px;
 }
 .fa-ellipsis-v {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 .offcanvas-header {
-    background-color: #112f42;
+  background-color: #112f42;
 }
 .offcanvas-title {
-    color: rgb(253, 253, 182);
-    font-size: 20px;
+  color: rgb(253, 253, 182);
+  font-size: 20px;
 }
 .fa-times {
-    font-size: 20px;
-    color: white;
-    transition: all .3s ease-out;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease-out;
 }
 .fa-times:hover {
-    color: rgb(250, 53, 53);
+  color: rgb(250, 53, 53);
 }
 .offcanvas-body {
-    background-color: #0c2d41;
+  background-color: #0c2d41;
 }
 .icons {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
-.fa-facebook-f, .fa-instagram, .fa-linkedin-in {
-    padding-right: 20px;
+.fa-facebook-f,
+.fa-instagram,
+.fa-linkedin-in {
+  padding-right: 20px;
 }
-.fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-telegram-plane:hover {
-    color: yellow;
-    font-size: 30px;
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-linkedin-in:hover,
+.fa-telegram-plane:hover {
+  color: yellow;
+  font-size: 30px;
 }
 #welcome {
-    margin-top: 25%;
+  margin-top: 25%;
 }
 #welcome h1 {
-    font-weight: bold;
-    font-size: 70px;
+  font-weight: bold;
+  font-size: 70px;
 }
 #welcome .letters-one {
-    color: white;
+  color: white;
 }
 #welcome .letters-one:hover {
-    color: yellow;
-    font-size: 80px;
+  color: yellow;
+  font-size: 80px;
 }
 #welcome .letters-two {
-    color: yellow;
+  color: yellow;
 }
 #welcome .letters-two:hover {
-    color: white;
-    font-size: 80px;
+  color: white;
+  font-size: 80px;
 }
 #welcome .special-letter {
-    color: #2bc8c8;
+  color: #2bc8c8;
 }
 #welcome .special-letter:hover {
-    color: white;
-    font-size: 80px;
+  color: white;
+  font-size: 80px;
 }
 #welcome .letters-tree {
-    color: white;
+  color: white;
 }
 #welcome .letters-tree:hover {
-    color: rgb(111, 0, 0);
-    font-size: 80px;
+  color: rgb(111, 0, 0);
+  font-size: 80px;
 }
 #welcome .disabled-p {
-    font-size: 18px;
-    font-weight: 600;
-    color: whitesmoke;
-    margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-top: 5px;
 }
 #some_information {
-    margin-top: 15%;
+  margin-top: 15%;
 }
 .hover-menu {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    background-color: #060606;
-    text-align: center;
-    box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #060606;
+  text-align: center;
+  box-sizing: border-box;
 }
 .hover-menu * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .hover-menu img {
-    position: relative;
-    max-width: 100%;
-    top: 0;
-    right: 0;
-    opacity: 1;
-    transition: 0.3s ease-in-out;
+  position: relative;
+  max-width: 100%;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 .hover-menu div {
-    position: absolute;
-    top: 0;
-    left: -120px;
-    width: 120px;
-    height: 100%;
-    padding: 8px 4px;
-    background-color: #060606;
-    transition: 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 120px;
+  height: 100%;
+  padding: 8px 4px;
+  background-color: #060606;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hover-menu div a {
-    display: block;
-    line-height: 2;
-    color: #fff;
-    text-decoration: none;
-    opacity: 0.8;
-    position: relative;
-    transition: 0.3s ease-in-out;
+  display: block;
+  line-height: 2;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  position: relative;
+  transition: 0.3s ease-in-out;
 }
-  
+
 .hover-menu div a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-  
+
 .hover-menu:hover img {
-    opacity: 0.5;
-    right: -120px;
+  opacity: 0.5;
+  right: -120px;
 }
-  
+
 .hover-menu:hover div {
-    left: 0;
-    opacity: 1;
+  left: 0;
+  opacity: 1;
 }
 #form {
-    background-color: #2bc8c827;
-    margin-top: 15%;
+  background-color: #2bc8c827;
+  margin-top: 15%;
 }
 #form input {
-    background: none;
-    border-color: #2bc8c8;
+  background: none;
+  border-color: #2bc8c8;
 }
 #form textarea {
-    background: none;
-    border-color: #2bc8c8;
+  background: none;
+  border-color: #2bc8c8;
 }
 .btn-perso {
-    border: 1px solid #2bc8c8;
-    background-color: #2bc8c82f;
-    border-radius: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
+  border: 1px solid #2bc8c8;
+  background-color: #2bc8c82f;
+  border-radius: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #chartdiv {
-    width: 100%;
-    height: 350px;
+  width: 100%;
+  height: 350px;
 }
 #body_about {
-    background-color: #0c2d41;
+  background-color: #0c2d41;
 }
 #some_information .card {
-    background: none;
-    border-color: #2bc8c8;
+  background: none;
+  border-color: #2bc8c8;
 }
-#some_information .fa-language, #some_information .fa-school, #some_information .fa-graduation-cap, #some_information .fa-clock {
-    font-size: 80px;
-    color: yellow;
+#some_information .fa-language,
+#some_information .fa-school,
+#some_information .fa-graduation-cap,
+#some_information .fa-clock {
+  font-size: 80px;
+  color: yellow;
 }
 .list-card {
-    font-size: 20px;
+  font-size: 20px;
 }
 #body_contact {
-    background-color: #0c2d41;
+  background-color: #0c2d41;
 }
 #form_contact {
-    padding-top: 15%;
-    padding-bottom: 5%;
-    background-color: #2bc8c827;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  background-color: #2bc8c827;
 }
 #form_contact input {
-    background: none;
-    border-color: #2bc8c8;
+  background: none;
+  border-color: #2bc8c8;
 }
 #form_contact textarea {
-    background: none;
-    border-color: #2bc8c8;
+  background: none;
+  border-color: #2bc8c8;
 }
 /*V2*/
 #minimalist_navbar a {
-    text-decoration: none;
-    color: #060606;
-    font-weight: bold;
+  text-decoration: none;
+  color: #060606;
+  font-weight: bold;
 }
 #welcome_minimalist {
-    background-image: url("images/fondoMin.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 880px;
-    width: 100%;
+  background-image: url("images/fondoMin.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 880px;
+  width: 100%;
 }
-#welcome_minimalist .letters-one, #welcome_minimalist .letters-tree {
-    color: #060606;
+#welcome_minimalist .letters-one,
+#welcome_minimalist .letters-tree {
+  color: #060606;
 }
-#welcome_minimalist .letters-two, #welcome_minimalist .special-letter {
-    color: gray;
+#welcome_minimalist .letters-two,
+#welcome_minimalist .special-letter {
+  color: gray;
 }
-#welcome_minimalist .letters-one:hover, #welcome_minimalist .letters-tree:hover {
-    color: gray;
+#welcome_minimalist .letters-one:hover,
+#welcome_minimalist .letters-tree:hover {
+  color: gray;
 }
-#welcome_minimalist .letters-two:hover, #welcome_minimalist .special-letter:hover {
-    color: #060606;
+#welcome_minimalist .letters-two:hover,
+#welcome_minimalist .special-letter:hover {
+  color: #060606;
 }
 #projects {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(220, 220, 220);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(220, 220, 220);
 }
 #about {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-#about .fa-language, .fa-school, .fa-graduation-cap, .fa-clock {
-    font-size: 80px;
-    color: #060606;
+#about .fa-language,
+.fa-school,
+.fa-graduation-cap,
+.fa-clock {
+  font-size: 80px;
+  color: #060606;
 }
 #minimalist_contact {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(220, 220, 220);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(220, 220, 220);
 }
 #minimalist_contact input {
-    background: none;
-    border-color: #060606;
+  background: none;
+  border-color: #060606;
 }
 #minimalist_contact textarea {
-    background: none;
-    border-color: #060606;
+  background: none;
+  border-color: #060606;
 }
 #minimalist_contact .btn-perso {
-    background: none;
-    border-color: #060606;
-}
-#world_chart {
-    width: 100% !important;
-    height: 350px;
+  background: none;
+  border-color: #060606;
 }
 #minimalist_contact a {
-    text-decoration: none;
+  text-decoration: none;
+}
+#minimalist_contact h3 {
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+}
+#minimalist_contact h3:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #0c2d41;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+#minimalist_contact h3:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /*COLORS*/
-.color1 {color: #060606;}
-.color2 {color: #0c2d41;}
-.color3 {color: #1a5d87;}
-.color4 {color: #2b99ca;}
-.color5 {color: #2bc8c8;}
+.color1 { color: #060606; }
+.color2 { color: #0c2d41; }
+.color3 { color: #1a5d87; }
+.color4 { color: #2b99ca; }
+.color5 { color: #2bc8c8; }
