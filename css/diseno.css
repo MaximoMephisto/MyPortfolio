@@ -389,6 +389,25 @@
   -moz-animation: show-bar-four 1.2s 0.4s forwards;
   animation: show-bar-four 1.2s 0.4s forwards;
 }
+#software {
+  background-color: #112f42;
+}
+#software .letters-one {
+  color: white;
+}
+#software .letters-one:hover {
+  color: yellow;
+  font-size: 43px;
+}
+#software .card {
+  background-color: transparent;
+}
+#software img {
+  width: 100px;
+}
+#software .special-img {
+  width: 133px;
+}
 #form {
   background-color: #2bc8c827;
 }
