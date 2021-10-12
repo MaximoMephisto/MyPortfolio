@@ -14,6 +14,7 @@
 }
 #body {
   background-color: #0c2d41;
+  font-family: 'Noto Sans Mono', monospace;
 }
 #contenedor_carga {
   background-color: #0c2d41;
@@ -33,7 +34,7 @@
   z-index: 99;
 }
 .img-title {
-  width: 100px;
+  width: 90px;
   border-radius: 50px;
 }
 .nav-link {
@@ -43,8 +44,9 @@
 .nav-item {
   font-size: 20px;
 }
-.fa-ellipsis-v {
+.fa-bars {
   color: whitesmoke;
+  font-size: 25px;
 }
 .offcanvas-header {
   background-color: #112f42;
@@ -70,21 +72,23 @@
 }
 .fa-facebook-f,
 .fa-instagram,
-.fa-linkedin-in {
+.fa-linkedin-in,
+.fa-telegram-plane {
   padding-right: 20px;
+  transition: all .2s;
 }
 .fa-facebook-f:hover,
 .fa-instagram:hover,
 .fa-linkedin-in:hover,
 .fa-telegram-plane:hover {
-  color: yellow;
+  color: yellow !important;
   font-size: 30px;
 }
 #welcome {
   margin-top: 25%;
 }
 #welcome h1 {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 70px;
 }
 #welcome .letters-one {
@@ -92,28 +96,28 @@
 }
 #welcome .letters-one:hover {
   color: yellow;
-  font-size: 80px;
+  font-size: 73px;
 }
 #welcome .letters-two {
   color: yellow;
 }
 #welcome .letters-two:hover {
   color: white;
-  font-size: 80px;
+  font-size: 73px;
 }
 #welcome .special-letter {
   color: #2bc8c8;
 }
 #welcome .special-letter:hover {
   color: white;
-  font-size: 80px;
+  font-size: 73px;
 }
 #welcome .letters-tree {
   color: white;
 }
 #welcome .letters-tree:hover {
   color: rgb(111, 0, 0);
-  font-size: 80px;
+  font-size: 73px;
 }
 #welcome .disabled-p {
   font-size: 18px;
@@ -123,12 +127,13 @@
 }
 #some_information {
   margin-top: 15%;
+  background-color: #0c2d41;
 }
 .hover-menu {
   position: relative;
   overflow: hidden;
   width: 100%;
-  background-color: #060606;
+  background-color: #0c2d41;
   text-align: center;
   box-sizing: border-box;
 }
@@ -150,7 +155,7 @@
   width: 120px;
   height: 100%;
   padding: 8px 4px;
-  background-color: #060606;
+  background-color: #1a5d87;
   transition: 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -181,7 +186,6 @@
 }
 #form {
   background-color: #2bc8c827;
-  margin-top: 15%;
 }
 #form input {
   background: none;
