@@ -433,17 +433,18 @@
 #body_about {
   background-color: #0c2d41;
 }
-#some_information .card {
+#about_information .card {
   background: none;
   border-color: #2bc8c8;
 }
-#some_information .fa-language,
-#some_information .fa-school,
-#some_information .fa-graduation-cap,
-#some_information .fa-clock {
+#about_information .fa-language,
+#about_information .fa-school,
+#about_information .fa-graduation-cap,
+#about_information .fa-clock {
   font-size: 80px;
   color: yellow;
 }
+
 .list-card {
   font-size: 20px;
 }
