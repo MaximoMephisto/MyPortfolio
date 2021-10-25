@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MM | Contact</title>
-    <link rel="icon" href="css/images/MM.png">
+    <title>MM | About</title>
+    <link rel="icon" type="image/png" href="css/images/MM.png">
     <link rel="stylesheet" href="css/diseno.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ff041f84fb.js" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
-<body id="body_contact">
+<body id="body_about">
     <div id="contenedor_carga">
         <div class="container">
             <div class="col-12 col-sm-12 text-center">
@@ -47,8 +47,7 @@
                             <h5 
                                 class="offcanvas-title" 
                                 id="offcanvasNavbarLabel"
-                                >
-                                Know me
+                                >Know me
                             </h5>
                             <i class="fas fa-times" 
                                 type="button" 
@@ -61,13 +60,13 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="contact">Contact</a>
                                 </li>
                             </ul>
                             <div class="col-12 col-sm-12 text-center mt-5 icons">
@@ -83,30 +82,87 @@
             </nav>
         </header>
         <main>
-            <section id="form_contact">
+            <section>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-6 mt-5">
-                            <form action="">
-                                <div class="form-group p-1">
-                                    <input class="form-control" type="text" placeholder="Name">
-                                </div>
-                                <div class="form-group p-1">
-                                    <input class="form-control" type="mail" placeholder="Mail">
-                                </div>
-                                <div class="form-group p-1">
-                                    <input class="form-control" type="text" placeholder="Subject">
-                                </div>
-                                <div class="form-group p-1">
-                                    <textarea class="form-control" rows="7" placeholder="Message"></textarea>
-                                </div>
-                                <div class="text-end p-1">
-                                    <button class="btn-perso">SEND</button>
-                                </div>
-                            </form>
+                        <div class="col-12 col-sm-12" id="welcome" data-aos="fade-in">
+                            <h1>
+                                <span class="letters-one">A</span><span class="letters-one">b</span><span class="letters-one">o</span><span class="letters-one">u</span><span class="letters-one">t</span> <span class="letters-two">M</span><span class="letters-two">e</span>
+                                <p class="disabled-p">Languages / Studies / Courses / Free time</p>
+                            </h1>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5">
-                            <div id="chartdiv"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="about_information">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mt-3" data-aos="fade-up">
+                            <div class="card text-light">
+                                <div class="card-header text-end">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-card">
+                                        <li>English: Intermediate</li>
+                                        <li>Spanish: Native</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mt-3" data-aos="fade-up">
+                            <div class="card text-light">
+                                <div class="card-header text-end">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-card">
+                                        <li>Secondary: Process</li>
+                                        <li>University: Future</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mt-3" data-aos="fade-up">
+                            <div class="card text-light">
+                                <div class="card-header text-end">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-card">
+                                        <li>DePCsuite - Web Full Stack
+                                        <li>DPL - All languages</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 mt-3 mb-5" data-aos="fade-up">
+                            <div class="card text-light">
+                                <div class="card-header text-end">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-card">
+                                        <li>Read</li>
+                                        <li>To train</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 text-end my-3 fixed-bottom">
+                            <a href="certificates.zip" download="MáxxCertificates">
+                                <button class="btn btn-outline-warning">
+                                    Download my certificates
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -115,6 +171,10 @@
     </div>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/carousel.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>

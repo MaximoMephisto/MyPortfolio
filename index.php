@@ -61,10 +61,10 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact">Contact</a>
                                 </li>
                             </ul>
                             <div class="col-12 col-sm-12 text-center mt-5 icons">
@@ -76,9 +76,6 @@
                                         style="text-decoration: none; color: white;"></i></a>
                                 <a href="https://t.me/MephistMaximo" style="text-decoration: none; color: white;"><i
                                         class="fab fa-telegram-plane"></i></a>
-                            </div>
-                            <div class="col-12 col-sm-12 text-center">
-                                <a class="nav-link" href="minimalist/index.html">Portfolio | V2</a>
                             </div>
                         </div>
                     </div>
