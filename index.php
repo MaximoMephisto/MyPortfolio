@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -437,21 +437,21 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 mt-5">
-                            <form action="">
+                            <form action="sendData" method="POST">
                                 <div class="form-group p-1">
-                                    <input class="form-control" type="text" placeholder="Name">
+                                    <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
                                 </div>
                                 <div class="form-group p-1">
-                                    <input class="form-control" type="mail" placeholder="Mail">
+                                    <input class="form-control" name="txtMail" id="txtMail" type="mail" placeholder="Mail" required>
                                 </div>
                                 <div class="form-group p-1">
-                                    <input class="form-control" type="text" placeholder="Subject">
+                                    <input class="form-control" name="txtReason" id="txtReason" type="text" placeholder="Reason" required>
                                 </div>
                                 <div class="form-group p-1">
-                                    <textarea class="form-control" rows="7" placeholder="Message"></textarea>
+                                    <textarea class="form-control" rows="7" name="txtMessage" id="txtMessage" placeholder="Message"></textarea>
                                 </div>
                                 <div class="text-end p-1">
-                                    <button class="btn-perso">SEND</button>
+                                    <button class="btn-perso"">SEND</button>
                                 </div>
                             </form>
                         </div>
@@ -477,6 +477,9 @@
     <script src="js/onload.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        
+    </script>
 </body>
 
 </html>
