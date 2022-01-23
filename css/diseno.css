@@ -91,6 +91,11 @@
   font-weight: 400;
   font-size: 70px;
 }
+@media (max-width: 750px){
+  h1 {
+    font-size: 40px !important;
+  }
+}
 #welcome .letters-one {
   color: white;
 }
