@@ -521,47 +521,6 @@
   font-size: 80px;
   color: #060606;
 }
-#minimalist_contact {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: rgb(220, 220, 220);
-}
-#minimalist_contact input {
-  background: none;
-  border-color: #060606;
-}
-#minimalist_contact textarea {
-  background: none;
-  border-color: #060606;
-}
-#minimalist_contact .btn-perso {
-  background: none;
-  border-color: #060606;
-}
-#minimalist_contact a {
-  text-decoration: none;
-}
-#minimalist_contact h3 {
-  font-size: 60px;
-  display: inline-block;
-  position: relative;
-}
-#minimalist_contact h3:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 5px;
-  bottom: 0;
-  left: 0;
-  background-color: #0c2d41;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-#minimalist_contact h3:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 /*COLORS*/
 .color1 { color: #060606; }
 .color2 { color: #0c2d41; }

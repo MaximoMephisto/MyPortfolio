@@ -28,8 +28,8 @@
 
 <body id="body">
     <div id="contenedor_carga">
-        <div class="container">
-            <div class="col-12 col-sm-12 text-center">
+        <div class="container-fluid">
+            <div class="text-start text-sm-center">
                 <div class="loading">
                     <img src="css/videos/MM.gif" alt="loading">
                 </div>
@@ -437,7 +437,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 mt-5">
-                            <form action="sendData" method="POST">
+                            <form>
                                 <div class="form-group p-1">
                                     <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
                                 </div>
@@ -451,7 +451,7 @@
                                     <textarea class="form-control" rows="7" name="txtMessage" id="txtMessage" placeholder="Message"></textarea>
                                 </div>
                                 <div class="text-end p-1">
-                                    <button class="btn-perso"">SEND</button>
+                                    <button class="btn-perso" onclick="javascript:sendData();">SEND</button>
                                 </div>
                             </form>
                         </div>
@@ -477,9 +477,7 @@
     <script src="js/onload.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        
-    </script>
+    <script src="js/sendData.js"></script>
 </body>
 
 </html>
