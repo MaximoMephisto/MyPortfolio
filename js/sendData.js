@@ -1,3 +1,5 @@
+//npm init -y for the creation the package.json
+//npm install mysql
 function sendData() {
 
     var correo = new FormData();
