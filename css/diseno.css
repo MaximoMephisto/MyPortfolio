@@ -521,6 +521,37 @@
   font-size: 80px;
   color: #060606;
 }
+/*PAGES SECTIONS*/
+#page_description .card {
+  overflow: hidden;
+  transition: all .5s;
+}
+#page_description .card:hover .span {
+  top: 45%;
+}
+#page_description img {
+  position: relative;
+  filter: blur(0px);
+  transition: all .5s;
+}
+#page_description img:hover {
+  filter: blur(0.9px);
+}
+
+.span {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: all .5s;
+}
+#page_description .span:hover {
+  visibility: visible; 
+}
+#page_description .bg-trans {
+  background-color: #0c2d41d2;
+}
 /*COLORS*/
 .color1 { color: #060606; }
 .color2 { color: #0c2d41; }
