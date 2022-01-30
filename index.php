@@ -333,7 +333,7 @@
                                 <img src="css/images/ChuchisPage.png" alt="pageOne">
                                 <div class="text-light">
                                     <a>Static page</a>
-                                    <a href="plantilla.html"><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="plantilla"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -420,7 +420,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 mt-5">
-                            <form>
+                            <form id="formdata" method="POST">
                                 <div class="form-group p-1">
                                     <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
                                 </div>
@@ -434,7 +434,7 @@
                                     <textarea class="form-control" rows="7" name="txtMessage" id="txtMessage" placeholder="Message"></textarea>
                                 </div>
                                 <div class="text-end p-1">
-                                    <button class="btn-perso" onclick="javascript:sendData();">SEND</button>
+                                    <button class="btn-perso" type="submit">SEND</button>
                                 </div>
                             </form>
                         </div>
@@ -460,7 +460,7 @@
     <script src="js/onload.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/sendData.js"></script>
+    <script src="mysql.js"></script>
 </body>
 
 </html>
