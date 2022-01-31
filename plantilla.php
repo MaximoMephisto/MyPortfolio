@@ -50,7 +50,7 @@
                         <div class="card border-dark" data-aos="fade-up">
                             <img src="css/images/ChuchisPage.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Prueba</span>
+                                <span class="text-light">Beautiful</span>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                         <div class="card border-dark" data-aos="fade-up">
                             <img src="css/images/ChuchisPage.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Prueba</span>
+                                <span class="text-light">Simple</span>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                         <div class="card border-dark" data-aos="fade-up">
                             <img src="css/images/ChuchisPage.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Prueba</span>
+                                <span class="text-light">Easy to drive</span>
                             </div>
                         </div>
                     </div>
