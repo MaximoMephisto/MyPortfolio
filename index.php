@@ -326,7 +326,7 @@
                                 <img src="css/images/ChuchisPage.png" alt="pageOne">
                                 <div class="text-light">
                                     <a>Static page</a>
-                                    <a href="plantilla"><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/one"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>

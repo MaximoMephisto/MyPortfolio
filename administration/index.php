@@ -24,7 +24,6 @@ $clave = "6ñMaxXñ6";
 </head>
 <body id="body">
     <?php
-    
         if (@$_POST['txtNameUser'] == $nameUser && @$_POST['txtClave'] == $clave) {
             echo '
             <div class="container-fluid">
@@ -78,7 +77,9 @@ $clave = "6ñMaxXñ6";
                 <div class="col-12 col-sm-12 abs-center">
                     <div class="card bg-dark text-light">
                         <div class="card-header">
-                            Login
+                            <div class="row">
+                                Login
+                            </div>
                         </div>
                         <div class="card-body">
                             <form method="POST">

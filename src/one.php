@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MM | Page</title>
-    <link rel="icon" type="image/png" href="css/images/MM.png">
-    <link rel="stylesheet" href="css/diseno.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="../css/images/MM.png">
+    <link rel="stylesheet" href="../css/diseno.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ff041f84fb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
@@ -31,7 +31,7 @@
         <div class="container-fluid">
             <div class="text-start text-sm-center">
                 <div class="loading">
-                    <img src="css/videos/MM.gif" alt="loading">
+                    <img src="../css/videos/MM.gif" alt="loading">
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/ChuchisPage.png" alt="page">
                             <div class="span">
                                 <span class="text-light">Beautiful</span>
                             </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/ChuchisPage.png" alt="page">
                             <div class="span">
                                 <span class="text-light">Simple</span>
                             </div>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/ChuchisPage.png" alt="page">
                             <div class="span">
                                 <span class="text-light">Easy to drive</span>
                             </div>
@@ -84,8 +84,8 @@
             
         </main>
     </div>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+    <script src="../js/particles.js"></script>
+    <script src="../js/app.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -94,11 +94,10 @@
     <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-    <script src="js/chartdiv.js"></script>
-    <script src="js/onload.js"></script>
+    <script src="../js/chartdiv.js"></script>
+    <script src="../js/onload.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/sendData.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
