@@ -1,23 +1,23 @@
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: iset 0 0 6px rgba(0, 0, 0, 0, 3);
   border-radius: 0px;
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
   -webkit-box-shadow: iset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #1a5d87;
+  background-color: #04293A;
 }
 #body {
-  background-color: #0c2d41;
+  background-color: #041C32;
   font-family: 'Noto Sans Mono', monospace;
 }
 #contenedor_carga {
-  background-color: #0c2d41;
+  background-color: #041C32;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -52,7 +52,7 @@
   background-color: #112f42;
 }
 .offcanvas-title {
-  color: rgb(253, 253, 182);
+  color: #F6D167;
   font-size: 20px;
 }
 .fa-times {
@@ -61,10 +61,10 @@
   transition: all 0.3s ease-out;
 }
 .fa-times:hover {
-  color: rgb(250, 53, 53);
+  color: #F6D167;
 }
 .offcanvas-body {
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 .icons {
   font-size: 25px;
@@ -81,7 +81,7 @@
 .fa-instagram:hover,
 .fa-linkedin-in:hover,
 .fa-telegram-plane:hover {
-  color: yellow !important;
+  color: #F6D167 !important;
   font-size: 30px;
 }
 #welcome {
@@ -97,46 +97,57 @@
   }
 }
 #welcome .letters-one {
-  color: white;
+  color: #297F87;
+  transition: all .4s;
 }
 #welcome .letters-one:hover {
-  color: yellow;
-  font-size: 73px;
+  color: #F6D167;
+  transition: all .4s;
 }
 #welcome .letters-two {
-  color: yellow;
+  color: #297F87;
+  transition: all .4s;
 }
 #welcome .letters-two:hover {
-  color: white;
-  font-size: 73px;
+  color: #F6D167;
+  transition: all .4s;
 }
 #welcome .special-letter {
-  color: #2bc8c8;
+  color: #F6D167;
+  transition: all .4s;
 }
 #welcome .special-letter:hover {
-  color: white;
-  font-size: 73px;
+  color: #297F87;
+  transition: all .4s;
 }
 #welcome .letters-tree {
-  color: white;
+  color: #297F87;
+  transition: all .4s;
 }
 #welcome .letters-tree:hover {
-  color: rgb(111, 0, 0);
-  font-size: 73px;
+  color: #F6D167;
+  transition: all .4s;
 }
 #welcome .disabled-p {
   font-size: 18px;
   font-weight: 600;
-  color: whitesmoke;
+  color: #F6D167;
   margin-top: 5px;
 }
 #some_information {
   margin-top: 15%;
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 #some_information .card {
   color: whitesmoke;
-  background-color: #1a5d87 !important;
+  background-color: #04293A !important;
+}
+.btn-beige {
+  color: #F6D167 !important;
+  border-color: #F6D167 !important;
+}
+.btn-beige:hover {
+  background-color: #297F87 !important;
 }
 #lenguajes {
   background-color: #112f42;
@@ -145,7 +156,7 @@
   color: white;
 }
 #lenguajes .letters-one:hover {
-  color: yellow;
+  color: #F6D167;
   font-size: 43px;
 }
 #lenguajes .bar-graph {
@@ -275,7 +286,7 @@
   color: white;
 }
 #framework .letters-one:hover {
-  color: yellow;
+  color: #F6D167;
   font-size: 43px;
 }
 #framework .bar-graph {
@@ -350,7 +361,7 @@
   color: white;
 }
 #software .letters-one:hover {
-  color: yellow;
+  color: #F6D167;
   font-size: 43px;
 }
 #software .card {
@@ -363,13 +374,13 @@
   width: 133px;
 }
 #projects {
-  background-color: #0c2d41 !important;
+  background-color: #041C32 !important;
 }
 .hover-menu {
   position: relative;
   overflow: hidden;
   width: 100%;
-  background-color: #0c2d41;
+  background-color: #041C32;
   text-align: center;
   box-sizing: border-box;
 }
@@ -391,7 +402,7 @@
   width: 120px;
   height: 100%;
   padding: 8px 4px;
-  background-color: #1a5d87;
+  background-color: #04293A;
   transition: 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -421,7 +432,7 @@
   opacity: 1;
 }
 #form {
-  background-color: #2bc8c827;
+  background-color: #112f42;
 }
 #form input {
   background: none;
@@ -432,8 +443,8 @@
   border-color: #2bc8c8;
 }
 .btn-perso {
-  border: 1px solid #2bc8c8;
-  background-color: #2bc8c82f;
+  border: 1px solid #F6D167;
+  background-color: #297F87;
   border-radius: 1px;
   padding-left: 20px;
   padding-right: 20px;
@@ -443,7 +454,7 @@
   height: 350px;
 }
 #body_about {
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 #about_information .card {
   background: none;
@@ -454,73 +465,41 @@
 #about_information .fa-graduation-cap,
 #about_information .fa-clock {
   font-size: 80px;
-  color: yellow;
+  color: #F6D167;
 }
 .list-card {
   font-size: 20px;
 }
 #body_contact {
-  background-color: #0c2d41;
+  background-color: #041C32;
 }
 #form_contact {
   padding-top: 15%;
   padding-bottom: 5%;
   height: 968px;
 }
+.form-control {
+  border-radius: 0px !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #F6D167 !important;
+}
 #form_contact input {
   background: none;
-  border-color: #2bc8c8;
 }
 #form_contact textarea {
   background: none;
-  border-color: #2bc8c8;
 }
-/*V2*/
-#minimalist_navbar a {
-  text-decoration: none;
-  color: #060606;
-  font-weight: bold;
+#form .letters-tree {
+  color: #297F87;
+  transition: all .4s;
 }
-#welcome_minimalist {
-  background-image: url("images/fondoMin.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 880px;
-  width: 100%;
+#form .letters-tree:hover {
+  color: #F6D167;
+  transition: all .4s;
 }
-#welcome_minimalist .letters-one,
-#welcome_minimalist .letters-tree {
-  color: #060606;
-}
-#welcome_minimalist .letters-two,
-#welcome_minimalist .special-letter {
-  color: gray;
-}
-#welcome_minimalist .letters-one:hover,
-#welcome_minimalist .letters-tree:hover {
-  color: gray;
-}
-#welcome_minimalist .letters-two:hover,
-#welcome_minimalist .special-letter:hover {
-  color: #060606;
-}
-#projects {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: rgb(220, 220, 220);
-}
-#about {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-#about .fa-language,
-.fa-school,
-.fa-graduation-cap,
-.fa-clock {
-  font-size: 80px;
-  color: #060606;
-}
+
 /*PAGES SECTIONS*/
 #page_description .card {
   overflow: hidden;
@@ -550,11 +529,144 @@
   visibility: visible; 
 }
 #page_description .bg-trans {
-  background-color: #0c2d41d2;
+  background-color: #041C32d2;
 }
 /*COLORS*/
 .color1 { color: #060606; }
-.color2 { color: #0c2d41; }
-.color3 { color: #1a5d87; }
+.color2 { color: #041C32; }
+.color3 { color: #04293A; }
 .color4 { color: #2b99ca; }
 .color5 { color: #2bc8c8; }
+/*DINO GAME*/
+@media (max-width: 750px){
+  .contenedor {
+    display: none;
+  }
+  .game-over {
+    display: none;
+  }
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  
+  position: relative;
+
+  background: linear-gradient(#b7d6c7, transparent) #ffe2d1;/*linear-gradient(#90ebff, white);*/
+  transition: background-color 1s linear;
+  overflow: hidden;
+}
+
+.mediodia {
+  background-color: #F6D167;
+}
+
+.tarde {
+  background-color: #bea152;
+}
+
+.noche {
+  background-color: #041C32;
+}
+
+.dino {
+  width: 84px;
+  height: 84px;
+
+  position: absolute;
+  bottom: 22px;
+  left: 42px;
+  z-index: 2;
+
+  background: url(images/dino.png) repeat-x 0px 0px;
+  background-size: 336px 84px;
+  background-position-x: 0px;
+
+}
+
+.dino-corriendo {
+  animation: animarDino 0.25s steps(2) infinite;
+}
+.dino-estrellado {
+  background-position-x: -252px;
+}
+
+.suelo {
+  width: 200%;
+  height: 42px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background: url(images/suelo.png) repeat-x 0px 0px;
+  background-size: 50% 42px;
+
+}
+
+.cactus{
+  width: 46px;
+  height: 96px;
+
+  position: absolute;
+  bottom: 16px;
+  left: 600px;
+  z-index: 1;
+
+  background: url(images/cactus1.png) no-repeat;
+}
+.cactus2{
+  width: 98px;
+  height: 66px;
+
+  background: url(images/cactus2.png) no-repeat;
+}
+
+.nube{
+  width: 92px;
+  height: 26px;
+
+  position: absolute;
+  z-index: 0;
+
+  background: url(images/nube.png) no-repeat;
+  background-size: 92px 26px;
+}
+
+.score{
+  width: 100px;
+  height: 30px;
+
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  z-index: 10;
+
+  color: #d48871;
+  font-family: Verdana;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.game-over{
+  display: none;
+  width: 100%;
+
+
+  text-align: center;
+  color: #7e928b;
+  font-size: 30px;
+  font-family: Verdana;
+  font-weight: 700;
+}
+
+@keyframes animarDino{
+  from{
+      background-position-x: -84px;
+  }
+  to{
+      background-position-x: -252px;
+  }
+}

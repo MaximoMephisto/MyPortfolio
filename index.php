@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="text-start text-sm-center">
                 <div class="loading">
-                    <img src="css/videos/MM.gif" alt="loading">
+                    <img src="css/videos/loading.gif" alt="loading">
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                                     class="letters-tree">p</span><span class="letters-tree">e</span><span
                                     class="letters-tree">r</span>
                                 <br>
-                                <p class="disabled-p">Programmer Web Full Stack / Mobile apps developer</p>
+                                <p class="disabled-p">Programmer Web Full Stack / Mobile App Developer</p>
                             </h1>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="col-12 col-sm-12 mt-3">
                                         <a href="#projects">
-                                            <button class="btn btn-outline-light">Look projects</button>
+                                            <button class="btn btn-outline-light btn-beige">Look projects</button>
                                         </a>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="col-12 col-sm-12 mt-3">
                                         <a href="#projects">
-                                            <button class="btn btn-outline-light">Look projects</button>
+                                            <button class="btn btn-outline-light btn-beige">Look projects</button>
                                         </a>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@
                                     </div>
                                     <div class="col-12 col-sm-12 mt-3">
                                         <a href="#projects">
-                                            <button class="btn btn-outline-light">Look projects</button>
+                                            <button class="btn btn-outline-light btn-beige">Look projects</button>
                                         </a>
                                     </div>
                                 </div>
@@ -412,7 +412,19 @@
             <section id="form" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-6 mt-5">
+                        <div class="col-12 col-sm-12 text-center mt-5">
+                            <h1>
+                                <span class="letters-tree">C</span><span class="letters-tree">o</span><span
+                                    class="letters-tree">n</span><span class="letters-tree">t</span><span
+                                    class="letters-tree">a</span><span class="letters-tree">c</span><span
+                                    class="letters-tree">t</span> <span class="letters-tree">M</span><span
+                                    class="letters-tree">e</span> <span class="letters-tree">o</span><span
+                                    class="letters-tree">r</span> <span class="letters-tree">P</span><span
+                                    class="letters-tree">l</span><span class="letters-tree">a</span><span
+                                    class="letters-tree">y</span>
+                            </h1>
+                        </div>
+                        <div class="col-12 col-sm-6 mt-5 mb-sm-5 mb-0">
                             <form id="formdata" method="POST">
                                 <div class="form-group p-1">
                                     <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
@@ -431,8 +443,13 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5">
-                            <div id="chartdiv"></div>
+                        <div class="col-12 col-sm-6 mt-5 mb-sm-5">
+                            <div class="contenedor">
+                                <div class="suelo"></div>
+                                <div class="dino dino-corriendo"></div>
+                                <div class="score">0</div>
+                            </div>
+                            <div class="game-over">GAME OVER</div>
                         </div>
                     </div>
                 </div>
@@ -454,6 +471,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
     <script src="mysql.js"></script>
+    <script src="js/dino.js"></script>
 </body>
 
 </html>
