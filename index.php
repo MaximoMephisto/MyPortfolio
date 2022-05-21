@@ -421,7 +421,7 @@
                                     class="letters-tree">e</span> <span class="letters-tree">o</span><span
                                     class="letters-tree">r</span> <span class="letters-tree">P</span><span
                                     class="letters-tree">l</span><span class="letters-tree">a</span><span
-                                    class="letters-tree">y</span>
+                                    class="letters-tree">y</span> <span class="letters-tree">:)</span>
                             </h1>
                         </div>
                         <div class="col-12 col-sm-6 mt-5 mb-sm-5 mb-0">
