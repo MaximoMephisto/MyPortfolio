@@ -31,7 +31,7 @@
         <div class="container-fluid">
             <div class="text-start text-sm-center">
                 <div class="loading">
-                    <img src="../css/videos/MM.gif" alt="loading">
+                    <img src="../css/videos/loading.gif" alt="loading">
                 </div>
             </div>
         </div>
@@ -41,14 +41,14 @@
         <header id="page_description">
             <div class="container">
                 <div class="col-12 col-sm-12 mt-5 pt-5">
-                    <h1 class="text-light">$name</h1>
+                    <h1 class="text-light">Simple Portfolio</h1>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/PortPage.png" alt="page">
                             <div class="span">
                                 <span class="text-light">Beautiful</span>
                             </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/PortPage.png" alt="page">
                             <div class="span">
                                 <span class="text-light">Simple</span>
                             </div>
@@ -64,9 +64,9 @@
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/ChuchisPage.png" alt="page">
+                            <img src="../css/images/PortPage.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Easy to drive</span>
+                                <span class="text-light">Functional</span>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,15 @@
             </div>
         </header>
         <main>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 text-end">
+                        <a href="../index">
+                            <div class="btn btn-outline-warning">Back</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
     <script src="../js/particles.js"></script>

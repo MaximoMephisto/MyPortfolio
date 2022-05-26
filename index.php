@@ -82,7 +82,7 @@
                     <div class="row">
                         <div class="col-12 col-sm 12 text-center" id="welcome" data-aos="fade-up">
                             <h1>
-                                <span class="letters-one">¡</span><span class="letters-one">H</span><span
+                                <span class="letters-one">H</span><span
                                     class="letters-one">e</span><span class="letters-one">l</span><span
                                     class="letters-one">l</span><span class="letters-one">o</span><span
                                     class="letters-one">!</span>
@@ -320,22 +320,13 @@
             </section>
             <section id="projects">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
-                            <figure class="hover-menu">
-                                <img src="css/images/ChuchisPage.png" alt="pageOne">
-                                <div class="text-light">
-                                    <a>Static page</a>
-                                    <a href="src/one"><button class="btn btn-outline-light">Look project</button></a>
-                                </div>
-                            </figure>
-                        </div>
+                    <div class="row pt-5">
                         <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
                             <figure class="hover-menu">
                                 <img src="css/images/PortPage.png" alt="pageTwo">
                                 <div class="text-light">
                                     <a>Dinamic page</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/one.php"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -357,8 +348,6 @@
                                 </div>
                             </figure>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
                             <figure class="hover-menu">
                                 <img src="css/images/dplPage.png" alt="pageFour">
@@ -395,8 +384,6 @@
                                 </div>
                             </figure>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-12 col-sm-3 mt-3 mb-5" data-aos="fade-up">
                             <figure class="hover-menu">
                                 <img src="css/images/byoPage.png" alt="pageFour">
@@ -418,10 +405,7 @@
                                     class="letters-tree">n</span><span class="letters-tree">t</span><span
                                     class="letters-tree">a</span><span class="letters-tree">c</span><span
                                     class="letters-tree">t</span> <span class="letters-tree">M</span><span
-                                    class="letters-tree">e</span> <span class="letters-tree">o</span><span
-                                    class="letters-tree">r</span> <span class="letters-tree">P</span><span
-                                    class="letters-tree">l</span><span class="letters-tree">a</span><span
-                                    class="letters-tree">y</span> <span class="letters-tree">:)</span>
+                                    class="letters-tree">e</span> <span class="letters-tree">;)</span>
                             </h1>
                         </div>
                         <div class="col-12 col-sm-6 mt-5 mb-sm-5 mb-0">
@@ -443,13 +427,29 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5 mb-sm-5">
-                            <div class="contenedor">
-                                <div class="suelo"></div>
-                                <div class="dino dino-corriendo"></div>
-                                <div class="score">0</div>
+                        <div class="col-12 col-sm-6 mt-5 mb-sm-5 text-center">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 mt-5">
+                                    <h3>
+                                        Facebook
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-5">
+                                    <h3>
+                                        Instagram
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-5">
+                                    <h3>
+                                        Linkedin
+                                    </h3>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-5">
+                                    <h3>
+                                        Telegram
+                                    </h3>
+                                </div>
                             </div>
-                            <div class="game-over">GAME OVER</div>
                         </div>
                     </div>
                 </div>
