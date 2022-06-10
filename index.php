@@ -399,57 +399,25 @@
             <section id="form" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 text-center mt-5">
+                        <div class="col-12 col-sm-12 mt-5">
                             <h1>
-                                <span class="letters-tree">C</span><span class="letters-tree">o</span><span
-                                    class="letters-tree">n</span><span class="letters-tree">t</span><span
-                                    class="letters-tree">a</span><span class="letters-tree">c</span><span
-                                    class="letters-tree">t</span> <span class="letters-tree">M</span><span
-                                    class="letters-tree">e</span> <span class="letters-tree">;)</span>
+                                <span class="letters-one">C</span><span class="letters-one">o</span><span
+                                    class="letters-one">n</span><span class="letters-one">t</span><span
+                                    class="letters-one">a</span><span class="letters-one">c</span><span
+                                    class="letters-one">t</span>
                             </h1>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5 mb-sm-5 mb-0">
-                            <form id="formdata" method="POST">
-                                <div class="form-group p-1">
-                                    <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
-                                </div>
-                                <div class="form-group p-1">
-                                    <input class="form-control" name="txtMail" id="txtMail" type="mail" placeholder="Mail" required>
-                                </div>
-                                <div class="form-group p-1">
-                                    <input class="form-control" name="txtReason" id="txtReason" type="text" placeholder="Reason" required>
-                                </div>
-                                <div class="form-group p-1">
-                                    <textarea class="form-control" rows="7" name="txtMessage" id="txtMessage" placeholder="Message"></textarea>
-                                </div>
-                                <div class="text-end p-1">
-                                    <button class="btn-perso" type="submit">SEND</button>
-                                </div>
-                            </form>
+                        <div class="col-12 col-sm-3 text-center my-3">
+                            <a href="contact">Form contact</a>
                         </div>
-                        <div class="col-12 col-sm-6 mt-5 mb-sm-5 text-center">
-                            <div class="row">
-                                <div class="col-12 col-sm-6 mt-5">
-                                    <h3>
-                                        Facebook
-                                    </h3>
-                                </div>
-                                <div class="col-12 col-sm-6 mt-5">
-                                    <h3>
-                                        Instagram
-                                    </h3>
-                                </div>
-                                <div class="col-12 col-sm-6 mt-5">
-                                    <h3>
-                                        Linkedin
-                                    </h3>
-                                </div>
-                                <div class="col-12 col-sm-6 mt-5">
-                                    <h3>
-                                        Telegram
-                                    </h3>
-                                </div>
-                            </div>
+                        <div class="col-12 col-sm-3 text-center my-3">
+                            <a href="">Instagram</a>
+                        </div>
+                        <div class="col-12 col-sm-3 text-center my-3">
+                            <a href="">Telegram</a>
+                        </div>
+                        <div class="col-12 col-sm-3 text-center my-3">
+                            <a href="">Linkedin</a>
                         </div>
                     </div>
                 </div>

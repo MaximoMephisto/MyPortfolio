@@ -442,6 +442,13 @@
   background: none;
   border-color: #2bc8c8;
 }
+#form .letters-one {
+  color: white;
+}
+#form .letters-one:hover {
+  color: #F6D167;
+  font-size: 43px;
+}
 .btn-perso {
   border: 1px solid #F6D167;
   background-color: #297F87;
@@ -505,6 +512,9 @@
 }
 #form h3:hover {
   color: #297F87;
+}
+#form h1 {
+
 }
 
 /*PAGES SECTIONS*/
