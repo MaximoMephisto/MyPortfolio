@@ -498,25 +498,10 @@
 #form_contact textarea {
   background: none;
 }
-#form .letters-tree {
-  color: #297F87;
-  transition: all .4s;
-}
-#form .letters-tree:hover {
+#form a {
   color: #F6D167;
-  transition: all .4s;
+  text-decoration: none;
 }
-#form h3 {
-  color: #F6D167;
-  transition: all .3s;
-}
-#form h3:hover {
-  color: #297F87;
-}
-#form h1 {
-
-}
-
 /*PAGES SECTIONS*/
 #page_description .card {
   overflow: hidden;

@@ -2,12 +2,16 @@
   background-color: #0c2d41;
   font-family: 'Noto Sans Mono', monospace;
 }
-.abs-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.navbar-brand {
+  color: #F6D167;
+  transition: all .5s;
 }
-.form-control {
-  background-color: #fff !important;
+.navbar-brand:hover {
+  color: #FFF7AE;
+}
+.nav-link {
+  color: #F6D167 !important;
+}
+.nav-link:hover {
+  color: #FFF7AE !important;
 }

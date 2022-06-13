@@ -61,8 +61,6 @@
                                 </li>
                             </ul>
                             <div class="col-12 col-sm-12 text-center mt-5 icons">
-                                <a href="https://www.facebook.com/maximo.sorondo"
-                                    style="text-decoration: none; color: white;"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.instagram.com/maximoo_1/"
                                     style="text-decoration: none; color: white;"><i class="fab fa-instagram"></i></a>
                                 <a href="lindekind.com"><i class="fab fa-linkedin-in"
@@ -396,17 +394,10 @@
                     </div>
                 </div>
             </section>
-            <section id="form" data-aos="fade-up">
+            <section id="form">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 mt-5">
-                            <h1>
-                                <span class="letters-one">C</span><span class="letters-one">o</span><span
-                                    class="letters-one">n</span><span class="letters-one">t</span><span
-                                    class="letters-one">a</span><span class="letters-one">c</span><span
-                                    class="letters-one">t</span>
-                            </h1>
-                        </div>
+                       
                         <div class="col-12 col-sm-3 text-center my-3">
                             <a href="contact">Form contact</a>
                         </div>
