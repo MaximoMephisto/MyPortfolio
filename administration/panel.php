@@ -50,9 +50,6 @@ if (!isset($_SESSION['admin'])) {
                             <a class="nav-link" href="#">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Messages</a>
                         </li>
                         <li class="nav-item">
@@ -63,7 +60,7 @@ if (!isset($_SESSION['admin'])) {
             </div>
         </nav>
     </header>
-    <main>
+    <main id="panelMain">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-4 mt-5">

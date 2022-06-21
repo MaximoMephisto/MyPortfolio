@@ -19,33 +19,46 @@
 </head>
 
 <body id="body">
-    <div class="container">
-        <div class="col-12 col-sm-12 abs-center">
-            <div class="card bg-dark text-light">
-                <div class="card-header">
-                    <div class="row">
-                        Login
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4 abs-center mt-5 pt-5">
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <div>
+                            Login
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="../php/login.php" method="POST">
+                            <div class="from-group p-1">
+                                <label for="txtUsername">User</label>
+                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="User">
+                            </div>
+                            <div class="form-group p-1">
+                                <label for="txtPass">Password</label>
+                                <input type="password" class="form-control" name="txtPass" id="txtPass" placeholder="Password">
+                            </div>
+                            <div class="form-group p-1 text-end">
+                                <button class="btn btn-outline-light">LogIn</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="card-body">
-                    <form action="../php/login.php" method="POST">
-                        <div class="from-group p-1">
-                            <label for="txtUsername">User</label>
-                            <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="User">
-                        </div>
-                        <div class="form-group p-1">
-                            <label for="txtPass">Password</label>
-                            <input type="password" class="form-control" name="txtPass" id="txtPass" placeholder="Password">
-                        </div>
-                        <div class="form-group p-1 text-end">
-                            <button class="btn btn-outline-light">LogIn</button>
-                        </div>
-                    </form>
+            </div>
+            <div class="col-12 col-sm-8 mt-5 pt-5 abs-center">
+                <div class="typewriter-effect">
+                    <div class="text" id="typewriter-text"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        const typeWriter = document.getElementById('typewriter-text');
+        const text = 'Portfolio by MaxX. :)';
 
+        typeWriter.innerHTML = text;
+        typeWriter.style.setProperty('--characters', text.length);
+    </script>
 </body>
 
 </html>

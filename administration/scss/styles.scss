@@ -32,10 +32,54 @@
 .nav-link:hover {
   color: #FFF7AE !important;
 }
-.card {
+#panelMain .card {
   background-color: transparent !important;
   border: 1px solid #FFF7AE !important;
   border-radius: 0%;
   height: 80%;
   overflow-y: auto !important;
+}
+.abs-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter-effect {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  color: #F6D167;
+  font-size: 30px;
+}
+
+.typewriter-effect > .text {
+  max-width: 0;
+  animation: typing 3s steps(var(--characters)) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typewriter-effect:after {
+  content: " |";
+  animation: blink 1s infinite;
+  animation-timing-function: step-end;
+}
+
+@keyframes typing {
+  75%,
+  100% {
+    max-width: calc(var(--characters) * 1ch);
+  }
+}
+
+@keyframes blink {
+  0%,
+  75%,
+  100% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
 }

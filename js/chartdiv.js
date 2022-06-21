@@ -339,8 +339,8 @@ am4core.ready(function() {
         series.heatRules.push({
         "target": series.labels.template,
         "property": "fill",
-        "min": am4core.color("#0000CC"),
-        "max": am4core.color("#CC00CC"),
+        "min": am4core.color("#F6D167"),
+        "max": am4core.color("#FFF7AE"),
         "dataField": "value"
     });
     
@@ -350,8 +350,8 @@ am4core.ready(function() {
     series.heatRules.push({
         "target": series.labels.template,
         "property": "fill",
-        "min": am4core.color("#0000CC"),
-        "max": am4core.color("#CC00CC"),
+        "min": am4core.color("#F6D167"),
+        "max": am4core.color("#FFF7AE"),
         "dataField": "value"
     });
     
@@ -360,6 +360,6 @@ am4core.ready(function() {
     series.labels.template.tooltipText = "{word}: {value}";
     
     var hoverState = series.labels.template.states.create("hover");
-    hoverState.properties.fill = am4core.color("#FF0000");
+    hoverState.properties.fill = am4core.color("#297F87");
 
 });

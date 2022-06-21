@@ -376,6 +376,11 @@
 #projects {
   background-color: #041C32 !important;
 }
+#projects img {
+  height: 210px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
 .hover-menu {
   position: relative;
   overflow: hidden;

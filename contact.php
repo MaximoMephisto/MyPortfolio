@@ -87,7 +87,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 mt-5">
-                        <form action="sendData" method="POST">
+                            <form action="./php/messages.php" method="POST">
                                 <div class="form-group p-1">
                                     <input class="form-control" name="txtName" id="txtName" type="text" placeholder="Name" required>
                                 </div>

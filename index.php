@@ -321,7 +321,7 @@
                     <div class="row pt-5">
                         <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
                             <figure class="hover-menu">
-                                <img src="css/images/PortPage.png" alt="pageTwo">
+                                <img src="css/images/PortPage.png" alt="pageOne">
                                 <div class="text-light">
                                     <a>Dinamic page</a>
                                     <a href="src/one.php"><button class="btn btn-outline-light">Look project</button></a>
@@ -330,7 +330,7 @@
                         </div>
                         <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
                             <figure class="hover-menu">
-                                <img src="css/images/abmPage.png" alt="pageTree">
+                                <img src="css/images/abmPage.png" alt="pageTwo">
                                 <div class="text-light">
                                     <a>Crud</a>
                                     <a href=""><button class="btn btn-outline-light">Look project</button></a>
@@ -339,7 +339,7 @@
                         </div>
                         <div class="col-12 col-sm-3 mt-3" data-aos="fade-up">
                             <figure class="hover-menu">
-                                <img src="css/images/ctPage.png" alt="pageTree">
+                                <img src="css/images/sagiPage.png" alt="pageTree">
                                 <div class="text-light">
                                     <a>Crud</a>
                                     <a href=""><button class="btn btn-outline-light">Look project</button></a>
@@ -398,16 +398,16 @@
                 <div class="container">
                     <div class="row">
                        
-                        <div class="col-12 col-sm-3 text-center my-3">
+                        <div class="col-12 col-sm-3 text-sm-center my-3">
                             <a href="contact">Form contact</a>
                         </div>
-                        <div class="col-12 col-sm-3 text-center my-3">
+                        <div class="col-12 col-sm-3 text-sm-center my-3">
                             <a href="">Instagram</a>
                         </div>
-                        <div class="col-12 col-sm-3 text-center my-3">
+                        <div class="col-12 col-sm-3 text-sm-center my-3">
                             <a href="">Telegram</a>
                         </div>
-                        <div class="col-12 col-sm-3 text-center my-3">
+                        <div class="col-12 col-sm-3 text-sm-center my-3">
                             <a href="">Linkedin</a>
                         </div>
                     </div>
