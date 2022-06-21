@@ -1,3 +1,21 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['admin'])) {
+    echo '
+    <script>
+        alert("Please login");
+        window.location= "login";
+    </script>
+    ';
+
+    session_destroy();
+    die();
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +39,7 @@
 
 <body id="body">
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-blue">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Panel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,13 +54,64 @@
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">logout</a>
+                            <a class="nav-link" href="#">Messages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../php/logout.php">logout</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="col-12 col-sm-12 p-1 text-light">
+                            <h3>Register</h3>
+                        </div>
+                        <div class="col-12 col-sm-12 p-1 text-light text-end">
+                            <form action="../php/register.php" method="POST">
+                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
+                                <input type="password" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
+                                <button class="btn btn-outline-light mt-2">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="col-12 col-sm-12 p-1 text-light">
+                            <h3>Projects</h3>
+                        </div>
+                        <div class="col-12 col-sm-12 p-1 text-light text-end">
+                            <form action="" method="POST">
+                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
+                                <input type="text" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
+                                <button class="btn btn-outline-light mt-2">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="col-12 col-sm-12 p-1 text-light">
+                            <h3>Messages</h3>
+                        </div>
+                        <div class="col-12 col-sm-12 p-1 text-light text-end">
+                            <form action="" method="POST">
+                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
+                                <input type="text" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
+                                <button class="btn btn-outline-light mt-2">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

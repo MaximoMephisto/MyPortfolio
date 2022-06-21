@@ -12,7 +12,7 @@ $validation = mysqli_query($conn,
     "SELECT 
         username,
         userpass
-    FROM admin
+    FROM adminis
     WHERE username = '$username'
     AND userpass = '$userpass'"
 );

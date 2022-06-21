@@ -28,14 +28,14 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form action="../php/login.php" method="POST">
                         <div class="from-group p-1">
-                            <label for="txtNameUser">User</label>
-                            <input type="text" class="form-control" name="txtNameUser" id="txtNameUser" placeholder="User">
+                            <label for="txtUsername">User</label>
+                            <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="User">
                         </div>
                         <div class="form-group p-1">
-                            <label for="txtClave">Password</label>
-                            <input type="password" class="form-control" name="txtClave" id="txtClave" placeholder="Password">
+                            <label for="txtPass">Password</label>
+                            <input type="password" class="form-control" name="txtPass" id="txtPass" placeholder="Password">
                         </div>
                         <div class="form-group p-1 text-end">
                             <button class="btn btn-outline-light">LogIn</button>
