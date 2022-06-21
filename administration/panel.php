@@ -12,7 +12,6 @@ if (!isset($_SESSION['admin'])) {
 
     session_destroy();
     die();
-
 }
 
 ?>
@@ -67,45 +66,50 @@ if (!isset($_SESSION['admin'])) {
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6 mt-5">
+                <div class="col-12 col-sm-4 mt-5">
                     <div class="card">
-                        <div class="col-12 col-sm-12 p-1 text-light">
+                        <div class="col-12 col-sm-12 p-1 text-light text-center">
                             <h3>Register</h3>
                         </div>
                         <div class="col-12 col-sm-12 p-1 text-light text-end">
                             <form action="../php/register.php" method="POST">
-                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
-                                <input type="password" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
+                                <input type="text" class="form-control mt-5" name="txtUsername" id="txtUsername" placeholder="Username">
+                                <input type="password" class="form-control mt-5" name="txtUserpass" id="txtUserpass" placeholder="Password">
                                 <button class="btn btn-outline-light mt-2">Register</button>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 mt-5">
-                    <div class="card">
-                        <div class="col-12 col-sm-12 p-1 text-light">
-                            <h3>Projects</h3>
-                        </div>
-                        <div class="col-12 col-sm-12 p-1 text-light text-end">
-                            <form action="" method="POST">
-                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
-                                <input type="text" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
-                                <button class="btn btn-outline-light mt-2">Register</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 mt-5">
+                <div class="col-12 col-sm-8 mt-5">
                     <div class="card">
                         <div class="col-12 col-sm-12 p-1 text-light">
                             <h3>Messages</h3>
                         </div>
-                        <div class="col-12 col-sm-12 p-1 text-light text-end">
-                            <form action="" method="POST">
-                                <input type="text" class="form-control" name="txtUsername" id="txtUsername" placeholder="Username">
-                                <input type="text" class="form-control mt-2" name="txtUserpass" id="txtUserpass" placeholder="Password">
-                                <button class="btn btn-outline-light mt-2">Register</button>
-                            </form>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5>
+                                    <small>3 days ago</small>
+                                </div>
+                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                <small>Donec id elit non mi porta.</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5>
+                                    <small class="text-muted">3 days ago</small>
+                                </div>
+                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                <small class="text-muted">Donec id elit non mi porta.</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5>
+                                    <small class="text-muted">3 days ago</small>
+                                </div>
+                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                <small class="text-muted">Donec id elit non mi porta.</small>
+                            </a>
                         </div>
                     </div>
                 </div>
