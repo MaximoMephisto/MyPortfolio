@@ -61,7 +61,7 @@
                                 </li>
                             </ul>
                             <div class="col-12 col-sm-12 text-center mt-5 icons">
-                                <a href="https://www.instagram.com/hallowman_n/"
+                                <a href="https://www.instagram.com/halloman_n/"
                                     style="text-decoration: none; color: white;"><i class="fab fa-instagram"></i></a>
                                 <a href="lindekind.com"><i class="fab fa-linkedin-in"
                                         style="text-decoration: none; color: white;"></i></a>
@@ -402,7 +402,7 @@
                             <a href="contact">Form contact</a>
                         </div>
                         <div class="col-12 col-sm-3 text-sm-center my-3">
-                            <a href="https://www.instagram.com/hallowman_n/">Instagram</a>
+                            <a href="https://www.instagram.com/halloman_n/">Instagram</a>
                         </div>
                         <div class="col-12 col-sm-3 text-sm-center my-3">
                             <a href="https://t.me/MephistMaximo">Telegram</a>
