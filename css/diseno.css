@@ -511,6 +511,12 @@
 #page_description .card {
   overflow: hidden;
   transition: all .5s;
+  height: 309px !important;
+}
+@media (max-width: 750px){
+  #page_description .card {
+    height: auto !important;
+  }
 }
 #page_description .card:hover .span {
   top: 45%;

@@ -324,7 +324,7 @@
                                 <img src="css/images/PortPage.png" alt="pageOne">
                                 <div class="text-light">
                                     <a>Dinamic page</a>
-                                    <a href="src/one.php"><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/one"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -333,7 +333,7 @@
                                 <img src="css/images/abmPage.png" alt="pageTwo">
                                 <div class="text-light">
                                     <a>Crud</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/two"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -342,7 +342,7 @@
                                 <img src="css/images/sagiPage.png" alt="pageTree">
                                 <div class="text-light">
                                     <a>Crud</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/three"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -351,7 +351,7 @@
                                 <img src="css/images/dplPage.png" alt="pageFour">
                                 <div class="text-light">
                                     <a>Crud in Laravel</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/four"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -360,7 +360,7 @@
                                 <img src="css/images/dplDash.png" alt="pageTwo">
                                 <div class="text-light">
                                     <a>Crud in Laravel</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/five"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -369,7 +369,7 @@
                                 <img src="css/images/ctPage.png" alt="pageTree">       
                                 <div class="text-light">
                                     <a>Crud</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/six"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -378,7 +378,7 @@
                                 <img src="css/images/reactCardPage.png" alt="pageTree">       
                                 <div class="text-light">
                                     <a>Dinamic page</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/seven"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>
@@ -387,7 +387,7 @@
                                 <img src="css/images/byoPage.png" alt="pageFour">
                                 <div class="text-light">
                                     <a>Dinamic page</a>
-                                    <a href=""><button class="btn btn-outline-light">Look project</button></a>
+                                    <a href="src/eight"><button class="btn btn-outline-light">Look project</button></a>
                                 </div>
                             </figure>
                         </div>

@@ -14,6 +14,8 @@ if (!isset($_SESSION['admin'])) {
     die();
 }
 
+include '../php/getMessages.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,32 +84,25 @@ if (!isset($_SESSION['admin'])) {
                         <div class="col-12 col-sm-12 p-1 text-light">
                             <h3>Messages</h3>
                         </div>
-                        <div class="list-group">
-                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">List group item heading</h5>
-                                    <small>3 days ago</small>
-                                </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                <small>Donec id elit non mi porta.</small>
-                            </a>
+                        <?php foreach ($mensajes as $mensaje): ?>
+                        <div class="list-group m-1 p-0">
                             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">List group item heading</h5>
-                                    <small class="text-muted">3 days ago</small>
+                                <div class="d-flex w-100 justify-content-between border-bottom">
+                                    <div class="col-6 col-sm-6">
+                                        <h5><?php echo $mensaje['mail']; ?></h5>
+                                        <small><?php echo $mensaje['name']; ?></small>
+                                    </div>
+                                    <div class="col-6 col-sm-6 text-end">
+                                        <small><?php echo $mensaje['time']; ?></small>
+                                    </div>
                                 </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                <small class="text-muted">Donec id elit non mi porta.</small>
-                            </a>
-                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1">List group item heading</h5>
-                                    <small class="text-muted">3 days ago</small>
+                                <div class="col-12 col-sm-12">
+                                    <p class="mb-0 pb-0"><b><?php echo $mensaje['reason']; ?></b></p>
+                                    <p><?php echo $mensaje['message']; ?></p>
                                 </div>
-                                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                <small class="text-muted">Donec id elit non mi porta.</small>
                             </a>
                         </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>

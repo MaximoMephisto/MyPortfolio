@@ -3,21 +3,24 @@
 include '../conn.php';
 
 $name = $_POST['txtName'];
-$reason = $_POST['txtReason'];
 $mail = $_POST['txtMail'];
+$reason = $_POST['txtReason'];
 $message = $_POST['txtMessage'];
-
+date_default_timezone_set("America/Argentina/Buenos_Aires");
+$time = date('m-d-Y');
 $query = 
     "INSERT INTO mensajes (
         name,
-        reason,
         mail,
-        message
+        reason,
+        message,
+        time
     ) VALUES (
         '$name',
         '$mail',
         '$reason',
-        '$message'
+        '$message',
+        '$time'
     );"
 ;
 

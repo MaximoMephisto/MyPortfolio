@@ -41,43 +41,46 @@
         <header id="page_description">
             <div class="container">
                 <div class="col-12 col-sm-12 mt-5 pt-5">
-                    <h1 class="text-light">Simple Portfolio</h1>
+                    <h1 class="text-light">Crud</h1>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/PortPageOne.png" alt="page">
+                            <img src="../css/images/sagiPageOne.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Beautiful</span>
+                                <span class="text-dark">Beautiful</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/PortPageTwo.png" alt="page">
+                            <img src="../css/images/sagiPageTwo.png" alt="page">
                             <div class="span">
-                                <span class="text-dark">Simple</span>
+                                <span class="text-light">Simple</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 my-2">
                         <div class="card border-dark" data-aos="fade-up">
-                            <img src="../css/images/PortPage.png" alt="page">
+                            <img src="../css/images/sagiPage.png" alt="page">
                             <div class="span">
-                                <span class="text-light">Functional</span>
+                                <span class="text-dark">Functional</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 my-2" data-aos="fade-up">
                         <div class="card h-100 border-light bg-trans">
                             <p class="p-3 text-light">
-                                Simple and nice portfolio, with section for contacts, virtual view of completed projects and simple animations made with CSS.
+                                Mockup of a commercial page with sales systems connected to the Metamask API, make purchases and sales of cryptocurrencies.
                                 <ul class="text-light">
                                     <li>HTML:5</li>
                                     <li>CSS</li>
                                     <li>PHP</li>
+                                    <li>JavaScript</li>
+                                    <li>WEB3</li>
+                                    <li>Metamask APi</li>
                                 </ul>
                             </p>
                         </div>
